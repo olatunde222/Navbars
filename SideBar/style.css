@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300&family=IBM+Plex+Mono:ital,wght@0,500;1,300;1,400&family=IBM+Plex+Sans:ital,wght@0,600;1,200;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+}
+
+
+body{
+    background: #dfe9f5;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+}
+
+.logo>span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+a{
+    position: relative;
+    color: rgb(85, 85, 83);
+    font-size: 15px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+i{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+a:hover{
+    background: #eee;
+}
+
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+
+.kaluar{
+
+    position: absolute;
+    bottom: 0;
+}
